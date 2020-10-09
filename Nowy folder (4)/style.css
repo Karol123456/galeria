@@ -24,8 +24,9 @@ nav{
 
 .logo {
     color: black;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 800;
 
 }
 
@@ -83,8 +84,8 @@ nav ul li a:hover:after{
 
 .font-main {
     font-size: 70px;
-    margin-left: 47px;
-    margin-top: 20%;
+    margin-left: 40px;
+    margin-top: 23%;
     
 }
 
@@ -97,7 +98,7 @@ nav ul li a:hover:after{
 .borderradius{
     border-radius: 50%;
 background-color: black;
-width: 170px;
+width: 160px;
 height: 150px;
 margin-left: 45px;
 }
