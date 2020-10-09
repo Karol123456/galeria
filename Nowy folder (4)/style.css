@@ -1,0 +1,103 @@
+nav{
+    justify-content: space-between;
+    min-height: 8vh;
+    filter: alpha(opacity=50);
+   align-items: center;
+   width: 100%;
+   display: flex;
+   position: fixed;
+   top: 0;
+   
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 15px;
+    width: 19%;
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.logo {
+    color: black;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+nav ul li a::after{
+    content: "";
+    width: 0;
+    border: auto;
+    display: block;
+    background-color: black;
+    height: 2px;
+    transition: 1s;
+}
+
+
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+.srodek {
+    margin-left: 48%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.srodek1 {
+    margin-left: 44%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1;
+}
+
+.row-main {
+    margin-left: 11%;
+}
+
+.font-main {
+    font-size: 70px;
+    margin-left: 47px;
+    margin-top: 20%;
+    
+}
+
+.Lorem {
+    margin-left: 67px;
+    font-weight: 1000;
+    font-size: 45px;
+}
+
+.borderradius{
+    border-radius: 50%;
+background-color: black;
+width: 170px;
+height: 150px;
+margin-left: 45px;
+}
