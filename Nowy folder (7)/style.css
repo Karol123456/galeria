@@ -110,7 +110,7 @@ transform: scale(1.3);
     position: absolute;
 }
 .h2xD{
-    font-weight: 400;
+    font-weight: 300;
     
 }
 
@@ -120,14 +120,14 @@ transform: scale(1.3);
 }
 
 .przesuniecie h2{
-    font-weight: 400;
+    font-weight: 300;
     margin-left: 2px;
 }
 
 .borderblue3{
     border: 1px solid #007bff;
     width: 60px;
-    margin-left: 12px;
+    margin-left: 15px;
 }
 
 .kontakt {
@@ -198,4 +198,13 @@ transform: scale(1.3);
         grid-template-columns: auto auto auto auto;
         
     
+}
+
+.logozoom{
+    margin-left: 905px;
+    display: flex;
+    color: #007bff;
+    width: 13%;
+    font-size: 25px;
+    justify-content: space-around;
 }
